@@ -1,4 +1,5 @@
 import {
+  
     mobile,
     backend,
     creator,
@@ -15,16 +16,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    
     carrent,
     jobit,
     tripguide,
     threejs,
     logo,
   } from "../assets";
+  import roomies from '../assets/roomie.png'
+  import yt from '../assets/yt.png'
+  import me1 from '../assets/me.png'
   
   export const navLinks = [
     {
@@ -73,10 +74,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+   
     {
       name: "React JS",
       icon: reactjs,
@@ -105,14 +103,8 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
+   
   ];
   
   const experiences = [
@@ -167,9 +159,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Roomie Chat App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The Roomie Chat App is a revolutionary platform designed to enhance communication and collaboration among friends. This innovative app provides a seamless and user-friendly interface that allows friends to connect, share information, and stay organized. With the Roomie Chat App, users can easily coordinate household tasks, manage expenses, and plan social events, all in one convenient location.",
       tags: [
         {
           name: "react",
@@ -183,51 +175,55 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+            name: "restApi",
+            color: "pink-text-gradient",
+          },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: roomies,
+      source_code_link: "https://github.com/Akash09783/Roomie-Chat-App-MERN-Deployment-",
     },
     {
-      name: "Job IT",
+      name: "YouTube_Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Through my expertise and technical prowess, I have successfully developed a YouTube clone that mirrors the essence of the original platform. This remarkable achievement required extensive research and meticulous coding to ensure that users can enjoy a seamless video-sharing experience. From the intuitive user interface to the robust backend infrastructure, every aspect of this clone has been carefully crafted to provide a familiar and engaging environment for users.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Api",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: yt,
+      source_code_link: "https://github.com/Akash09783/Youtube-Clone-React-Js-",
     },
     {
-      name: "Trip Guide",
+      name: "3D PortFolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The 3D Portfolio project not only showcases my technical proficiency but also demonstrates my creativity and attention to detail. Each aspect of the project has been carefully crafted to provide an engaging and interactive experience for viewers. By incorporating interactive elements and seamless navigation, I have ensured that users can easily explore and appreciate the different facets of my portfolio. Overall, this project serves as a testament to my dedication and passion for my craft.",
       tags: [
         {
-          name: "nextjs",
+          name: "React js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "three js",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: me1,
+      source_code_link: "https://github.com/Akash09783/3D-Portfolio-Vite-React",
     },
   ];
   
