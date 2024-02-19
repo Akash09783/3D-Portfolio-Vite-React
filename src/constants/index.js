@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    logo,
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +117,25 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "MERN Stack Developer",
+      company_name: "Self-Learning",
+      icon: logo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted research projects gathering data and information from a variety of sources.",
+        "Conducted research projects, gathering data and information from a variety of sources.Handled scripting tasks for debugging and automation.",
+        "Developed user interfaces with modern JavaScript frameworks, HTML5, and CSS3.Used Javascript, MongoDb and HTML to develop app-solutions.",
+        "Reviewed code, debugged problems, and corrected issues.Used NodeJS, MonogoDb/No-SQL to develop and manage databases.Developed and designed API's in Backend .Learned new emerging technologies and took initiative to offer technical direction and creative solutions.",
+        
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+  
   ];
   
   const testimonials = [
