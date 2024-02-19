@@ -44,11 +44,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Js Developer",
+      title: "React Js ",
       icon: mobile,
     },
     {
@@ -56,9 +56,11 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: " Node.js",
       icon: creator,
     },
+
+    
   ];
   
   const technologies = [
@@ -204,6 +206,7 @@ import {
       image: yt,
       source_code_link: "https://github.com/Akash09783/Youtube-Clone-React-Js-",
     },
+    
     {
       name: "3D PortFolio",
       description:
